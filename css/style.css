@@ -38,7 +38,7 @@ p{
     color: #555;
 }
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     height: 100vh;
     margin: auto;
     padding-left: 20px;
@@ -70,7 +70,7 @@ p{
     padding: 8px 30px;
     margin: 30px 0px;
     border-radius: 30px;
-    transition: background 0.5s;
+    transition: transform 0.5s;
 }
 .btn:hover{
     background: #563434;
@@ -131,6 +131,21 @@ h4{
     color: #ff523b;
 }
 .col-4:hover{
+    transform: translateY(-5px);
+}
+.col-5{
+    flex-basis: 18%;
+    padding: 5px;
+    min-width: 180px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-5 img{
+    width: 100%;
+    height: 250px;
+    padding-bottom: 15px;
+}
+.col-5:hover{
     transform: translateY(-5px);
 }
 
